@@ -1,0 +1,24 @@
+#nav{
+    background-color: white;
+    font-size: 25px;
+}
+#row{
+    margin-top: 70px;
+}
+#leftmargin{
+    margin-left: 60px;
+    margin-top: -40px;
+}
+#scroll{
+    height:700px;
+    
+}
+#radiopadding{
+    padding-left: 20px;
+}
+#sizebutton{
+    width: 350px;
+}
+tbody{
+    overflow-y: scroll;
+}
