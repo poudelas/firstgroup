@@ -31,6 +31,11 @@ public class Coursecontroller extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+         String path = request.getServletPath();
+         if("show".equals(path)){
+                  RequestDispatcher rd = request.getRequestDispatcher("show.jsp");
+        rd.forward(request,response);
+               }
         
         if("delete".equals(request.getParameter("action"))){
             
